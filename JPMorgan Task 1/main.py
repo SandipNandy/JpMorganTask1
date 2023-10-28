@@ -32,4 +32,5 @@ os.killpg(os.getpgid(process.pid), signal.SIGTERM)
 print("UNIT TEST RESULTS BELOW...")
 
 process2 = subprocess.Popen(['python', 'client_test.py'], cwd=os.getcwd(), preexec_fn=os.setsid)
+
 process2.wait()
