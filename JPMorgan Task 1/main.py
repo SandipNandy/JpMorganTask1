@@ -21,6 +21,7 @@ time.sleep(.300)
 process2 = subprocess.Popen(['python', 'client3.py'], cwd=os.getcwd(), preexec_fn=os.setsid)
 
 process2.wait()
+
 os.killpg(os.getpgid(process.pid), signal.SIGTERM)
 
 # FOR BONUS TASK 
