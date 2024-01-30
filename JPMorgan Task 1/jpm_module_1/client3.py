@@ -29,7 +29,6 @@ import random
 QUERY = "http://localhost:8080/query?id={}"
 
 # 500 server request
-
 N = 500
 
 def getDataPoint(quote):
