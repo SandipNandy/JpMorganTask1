@@ -22,7 +22,6 @@
 
 import urllib.request
 import time
-
 import json
 
 import random
