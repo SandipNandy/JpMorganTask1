@@ -28,7 +28,6 @@ import random
 # Server API URLs
 QUERY = "http://localhost:8080/query?id={}"
 
-
 # 500 server request
 
 N = 500
