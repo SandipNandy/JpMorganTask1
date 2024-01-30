@@ -1,6 +1,5 @@
 # BEFORE YOU DO ANYTHING, PLEASE DO FF
 # CLICK THE 'FORK' BUTTON ABOVE
-
 # READ`Instructions` file. You can access it by clicking on the 'Files' icon on the left side/column of the screen (i.e. the top most icon, above Packages and Settings) and then clicking on the 'Instructions' file to show the contents
 
 # This is the main.py script. It's the only script that you can run on this REPL platform via the run button above. This script takes care of displaying the output of stock price feed script you need to change in the `jpm_module_1` folder. 
